@@ -5,7 +5,8 @@ Your task is to create a Javascript object that represents a calculator. It shou
 * Subtraction
 * Multiplication
 * Division
-* Exponents
+* Exponents (Hint: Look up Javascript's Math object)
+* An operation of your choice!
 
 You should be able to run these methods like so from your browser's Javascript console...
 ```js
@@ -17,8 +18,20 @@ calculator.add(1,2);
 
 Give your calculator memory and allow it to persist the result of multiple operations.
 * Store this result in a `value` property.
-* Example: running `calculator.add(1,2)`, `calculator.add(2,2)` and `calculator.mutliply(2,2)` in sequence would result in a `value` of 10.
 * Give your calculator a `clear` method that resets `value`.
+
+For example:
+
+```js
+calculator.add(1)
+// value is 1
+calculator.add(2)
+// value is 3
+calculator.add(2)
+// value is 5
+calculator.multiply(2)
+// value is 10
+```
 
 ### Bonus 2
 
